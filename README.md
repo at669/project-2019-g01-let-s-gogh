@@ -5,13 +5,11 @@
 <hr>
 
 ### Group Name and Project Title:
-- [Insert your group number]
-- [Insert your project title]
+- G01
+- Let's Gogh!
 
 ### Group Members:
 
-- [Insert your full name, Cornell email, GitHub handle]
-- [Insert your full name, Cornell email, GitHub handle]
-- [Insert your full name, Cornell email, GitHub handle]
-
-
+- Christine Ku, [ck753@cornell.edu](mailto:ck753@cornell.edu), [cku3](https://github.com/cku3)
+- Amanda Trang, [at669@cornell.edu](mailto:at669@cornell.edu), [at669](https://github.com/at669)
+- Wenting Xie, [wx95@cornell.edu](mailto:wx95@cornell.edu), [xiexiewenting](https://github.com/xiexiewenting)
