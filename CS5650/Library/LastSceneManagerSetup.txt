@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Oculus/SampleFramework/Usage/Locomotion.unity
+- path: Assets/Scenes/ShelfScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
