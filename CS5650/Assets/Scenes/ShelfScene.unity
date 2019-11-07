@@ -10366,6 +10366,43 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -248.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_Text
+      value: Warhol used a method called screen printing to create this famous piece.
+        Screen printing consists of transferring an image onto the mesh of a silk
+        screen and passing ink through to impress a print onto canvas.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60c8c7e30a99d45bf93943ba9510c0f6, type: 3}
 --- !u!4 &1738191540 stripped
