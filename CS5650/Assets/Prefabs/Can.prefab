@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4003054442126538238}
   - component: {fileID: -1357441802983867672}
+  - component: {fileID: 2530870293497926108}
   m_Layer: 0
   m_Name: Can
   m_TagString: Untagged
@@ -26,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 132553920887556077}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 5.9, y: 92.2, z: -36.2}
-  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.75}
   m_Children:
   - {fileID: 5074547591577292239}
   - {fileID: 7125022425517380045}
@@ -130,6 +131,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2530870293497926108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132553920887556077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9f48bf2086a5744eacc0335186476b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1725210643272247568
 GameObject:
   m_ObjectHideFlags: 0
@@ -373,7 +386,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 1, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 1.000061, z: 0}
+  m_ConnectedAnchor: {x: 0, y: 1.0002136, z: 0}
   m_UseSpring: 0
   m_Spring:
     spring: 0
