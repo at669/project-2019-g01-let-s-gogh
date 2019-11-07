@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class clankClonk : MonoBehaviour
 {
-    GameObject can;
+    //GameObject can;
     AudioSource canDrop;
+    bool hitGround;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,14 +14,25 @@ public class clankClonk : MonoBehaviour
     }
 
     // Update is called once per frame
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("floor"))
+        {
+            hitGround = true;
+            Debug.Log("floor detected");
+        }
+    }
     void Update()
     {
-        canDrop = can.GetComponent<AudioSource>();
+        canDrop = GetComponent<AudioSource>();
         //if the can hits the floor then:
-        if (!canDrop.isPlaying)
+        if (hitGround)
         {
-            canDrop.Play();
-            Debug.Log("clink clank");
+            if (!canDrop.isPlaying)
+            {
+                canDrop.Play();
+                Debug.Log("clink clank");
+            }
         }
     }
 }
