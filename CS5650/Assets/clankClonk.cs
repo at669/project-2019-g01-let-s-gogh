@@ -25,6 +25,7 @@ public class clankClonk : MonoBehaviour
     void Update()
     {
         canDrop = GetComponent<AudioSource>();
+        Debug.Log(canDrop);
         //if the can hits the floor then:
         if (hitGround)
         {
