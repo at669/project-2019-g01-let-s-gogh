@@ -10,11 +10,11 @@ public class clankClonk : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        canDrop = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("floor"))
         {
@@ -24,8 +24,8 @@ public class clankClonk : MonoBehaviour
     }
     void Update()
     {
-        canDrop = GetComponent<AudioSource>();
-        Debug.Log(canDrop);
+        
+        Debug.Log(hitGround);
         //if the can hits the floor then:
         if (hitGround)
         {
@@ -33,6 +33,7 @@ public class clankClonk : MonoBehaviour
             {
                 canDrop.Play();
                 Debug.Log("clink clank");
+                hitGround = false;
             }
         }
     }
