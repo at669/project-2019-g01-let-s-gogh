@@ -383,10 +383,10 @@ HingeJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1725210643272247568}
   m_ConnectedBody: {fileID: 8284090043163336403}
-  m_Anchor: {x: 0, y: 1, z: 0}
+  m_Anchor: {x: 0.65, y: 1.4, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.9999956, z: 0}
+  m_ConnectedAnchor: {x: -0.000000059604645, y: 1.4000047, z: 0.6499999}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -404,7 +404,7 @@ HingeJoint:
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
-  m_BreakForce: 10
+  m_BreakForce: 100
   m_BreakTorque: Infinity
   m_EnableCollision: 0
   m_EnablePreprocessing: 1
