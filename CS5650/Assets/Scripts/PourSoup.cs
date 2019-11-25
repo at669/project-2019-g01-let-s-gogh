@@ -5,15 +5,20 @@ using UnityEngine;
 public class PourSoup : MonoBehaviour
 {
     public GameObject soupInCan;
-    public GameObject soup;
-    private IEnumerator coroutine;
+    //[SerializeField]
+    ParticleSystem smolSoup;
+    public GameObject Soup;
+    //private IEnumerator coroutine;
     //GameObject pour;
-    bool pouring = true;
+    bool finishedPouring;
     // Start is called before the first frame update
+    //once the rotation of the hits a certain point, turn on the soup particle system with the y rotation the same as the can
     void Start()
     {
-        soup.SetActive(false);
-        coroutine = PourDaSoup(0.3f);
+        //soup = GetComponent<ParticleSystem>();
+        //coroutine = PourDaSoup(0.3f);
+        //soup.SetActive(false);
+        smolSoup = Soup.GetComponent<ParticleSystem>();
     }
 
     // Update is called once per frame
@@ -27,26 +32,29 @@ public class PourSoup : MonoBehaviour
             if (soupInCan.transform.localScale.y > 0.0001f)
             {
                 soupInCan.transform.localScale = new Vector3(soupInCan.transform.localScale.x, soupInCan.transform.localScale.y - decrease, soupInCan.transform.localScale.z);
-                pouring = false;
+                finishedPouring = false;
+                Debug.Log("still pouring");
             }
             else
             {
-                pouring = true;
-                soup.SetActive(false);
+                finishedPouring = true;
+                Soup.SetActive(false);
+                Debug.Log("finished");
             }
         }
-        if (!pouring)
+        if (!finishedPouring)
         {
-            StartCoroutine(coroutine);
+            //StartCoroutine(coroutine);
+            Soup.SetActive(true);
         }
     }
 
-    private IEnumerator PourDaSoup(float waitTime)
-    {
-        soup.SetActive(true);
-        soup.transform.position = new Vector3(transform.position.x, transform.position.y + 0.1f, transform.position.z);
-        soup.transform.rotation = transform.rotation; 
-        pouring = true;
-        yield return new WaitForSeconds(waitTime);
-    }
+//    private IEnumerator PourDaSoup(float waitTime)
+//    {
+//        soup.SetActive(true);
+        //soup.transform.position = new Vector3(transform.position.x, transform.position.y + 0.1f, transform.position.z);
+        //soup.transform.rotation = transform.rotation; 
+//        pouring = true;
+//        yield return new WaitForSeconds(waitTime);
+//    }
 }
