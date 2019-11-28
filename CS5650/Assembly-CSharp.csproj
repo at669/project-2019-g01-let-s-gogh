@@ -354,6 +354,7 @@
     <Compile Include="Assets\Oculus\VoiceMod\Scripts\Helpers\OVRMicInput.cs" />
     <Compile Include="Assets\Oculus\VoiceMod\Scripts\OVRVoiceMod.cs" />
     <Compile Include="Assets\Oculus\VoiceMod\Scripts\OVRVoiceModContext.cs" />
+    <Compile Include="Assets\Scripts\BowlBehavior.cs" />
     <Compile Include="Assets\Scripts\clankClonk.cs" />
     <Compile Include="Assets\Scripts\PourSoup.cs" />
     <Compile Include="Assets\Scripts\TestScale.cs" />

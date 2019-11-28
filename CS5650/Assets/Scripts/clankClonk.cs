@@ -14,12 +14,12 @@ public class clankClonk : MonoBehaviour
     }
 
     // Update is called once per frame
-    private void OnTriggerEnter(Collision collision)
+    private void OnTriggerEnter(Collider collision)
     {
         if (collision.gameObject.CompareTag("floor"))
         {
             hitGround = true;
-            Debug.Log("floor detected");
+            //Debug.Log("floor detected");
         }
     }
     void Update()
@@ -32,7 +32,7 @@ public class clankClonk : MonoBehaviour
             if (!canDrop.isPlaying)
             {
                 canDrop.Play();
-                Debug.Log("clink clank");
+                //Debug.Log("clink clank");
                 hitGround = false;
             }
         }

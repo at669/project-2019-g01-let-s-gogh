@@ -6,6 +6,7 @@ TagManager:
   tags:
   - can
   - floor
+  - soupParticles
   layers:
   - Default
   - TransparentFX
@@ -15,7 +16,7 @@ TagManager:
   - UI
   - 
   - 
-  - soupInteraction
+  - 
   - 
   - 
   - 
