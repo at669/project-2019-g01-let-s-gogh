@@ -424,11 +424,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.11
-      objectReference: {fileID: 0}
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
@@ -449,29 +444,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: -0.0000028014183
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_Text
-      value: 'In 1949, Andy Warhol moved to New York City from the School of Fine
-        Arts at the renowned Carnegie Institute of Technology.
-
-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 43
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_MinSize
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5703479463583084377, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -502,6 +474,34 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_Text
+      value: 'In 1949, Andy Warhol moved to New York City from the School of Fine
+        Arts at the renowned Carnegie Institute of Technology.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60c8c7e30a99d45bf93943ba9510c0f6, type: 3}
@@ -570,7 +570,7 @@ MonoBehaviour:
   SnapRotation: 1
   FixedSpeedSteps: 0
   HmdResetsY: 1
-  HmdRotatesY: 1
+  HmdRotatesY: 0
   GravityModifier: 1
   useProfileData: 1
   EnableLinearMovement: 1
@@ -608,7 +608,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CameraRig: {fileID: 922829724}
   CurrentDistance: 0
-  EnableFadeout: 0
+  EnableFadeout: 1
   EnableCollision: 0
   DynamicHeight: 0
   MaxFade: 1
@@ -651,9 +651,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 169539206}
-  - component: {fileID: 169539209}
-  - component: {fileID: 169539208}
-  - component: {fileID: 169539207}
   m_Layer: 0
   m_Name: LeftHandAnchor
   m_TagString: Untagged
@@ -676,55 +673,6 @@ Transform:
   m_Father: {fileID: 1284520506}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &169539207
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 169539205}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.05
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &169539208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 169539205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd425c2d06f39bf4899d07c05d0f10eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  grabBegin: 0.55
-  grabEnd: 0.35
-  m_parentHeldObject: 0
-  m_gripTransform: {fileID: 169539206}
-  m_grabVolumes:
-  - {fileID: 169539207}
-  m_controller: 1
-  m_parentTransform: {fileID: 0}
---- !u!54 &169539209
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 169539205}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1001 &184473169
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1088,169 +1036,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 209158205}
   m_PrefabAsset: {fileID: 0}
---- !u!43 &213985861
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  serializedVersion: 10
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 12
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 2
-    localAABB:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0, y: 0.9, z: 0}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000000000100000000000100010000000100010001000000
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 2
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 48
-    _typelessdata: 000000006666663f0000000000000000000000000000000000000000666666bf00000000000000000000000000000000
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0.9, z: 0}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    offset: 0
-    size: 0
-    path: 
 --- !u!1001 &214845934
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1731,25 +1516,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -1357441802983867672, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: BypassReverbZones
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.16
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -248.56
       objectReference: {fileID: 0}
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -1771,21 +1541,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: -0.000000059604645
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_Text
-      value: Critics of pop art believe that the movement endorses capitalism.
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5703479463583084377, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -1815,6 +1570,36 @@ PrefabInstance:
     - target: {fileID: 8654282571956107334, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -248.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_Text
+      value: Critics of pop art believe that the movement endorses capitalism.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1357441802983867672, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: BypassReverbZones
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2792,6 +2577,80 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!1001 &408681256
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2247222032337256984, guid: b4085886f87984ebb90cb483b24a9898,
+        type: 3}
+      propertyPath: m_Name
+      value: CustomHandLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: 2247222032336988140, guid: b4085886f87984ebb90cb483b24a9898,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2247222032336988140, guid: b4085886f87984ebb90cb483b24a9898,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2247222032336988140, guid: b4085886f87984ebb90cb483b24a9898,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2247222032336988140, guid: b4085886f87984ebb90cb483b24a9898,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2247222032336988140, guid: b4085886f87984ebb90cb483b24a9898,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2247222032336988140, guid: b4085886f87984ebb90cb483b24a9898,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2247222032336988140, guid: b4085886f87984ebb90cb483b24a9898,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2247222032336988140, guid: b4085886f87984ebb90cb483b24a9898,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2247222032336988140, guid: b4085886f87984ebb90cb483b24a9898,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2247222032336988140, guid: b4085886f87984ebb90cb483b24a9898,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2247222032336988140, guid: b4085886f87984ebb90cb483b24a9898,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2247222032327015052, guid: b4085886f87984ebb90cb483b24a9898,
+        type: 3}
+      propertyPath: m_parentTransform
+      value: 
+      objectReference: {fileID: 922829722}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b4085886f87984ebb90cb483b24a9898, type: 3}
 --- !u!1001 &422032750
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3534,9 +3393,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 474541876}
-  - component: {fileID: 474541879}
-  - component: {fileID: 474541878}
-  - component: {fileID: 474541877}
   m_Layer: 0
   m_Name: RightHandAnchor
   m_TagString: Untagged
@@ -3559,55 +3415,6 @@ Transform:
   m_Father: {fileID: 1284520506}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &474541877
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 474541875}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.05
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &474541878
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 474541875}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd425c2d06f39bf4899d07c05d0f10eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  grabBegin: 0.55
-  grabEnd: 0.35
-  m_parentHeldObject: 0
-  m_gripTransform: {fileID: 474541876}
-  m_grabVolumes:
-  - {fileID: 474541877}
-  m_controller: 2
-  m_parentTransform: {fileID: 0}
---- !u!54 &474541879
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 474541875}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1001 &481948515
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4090,11 +3897,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.38
-      objectReference: {fileID: 0}
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
@@ -4115,22 +3917,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: -0.000000059604645
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_Text
-      value: Campbell's Soup Cans is currently residing in the Museum of Modern Art
-        in NYC.
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5703479463583084377, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -4161,6 +3947,27 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_Text
+      value: Campbell's Soup Cans is currently residing in the Museum of Modern Art
+        in NYC.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60c8c7e30a99d45bf93943ba9510c0f6, type: 3}
@@ -4378,16 +4185,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -1357441802983867672, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -1357441802983867672, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: BypassReverbZones
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5851647843240404313, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_BreakForce
@@ -4437,6 +4234,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Anchor.z
       value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: -1357441802983867672, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1357441802983867672, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: BypassReverbZones
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60c8c7e30a99d45bf93943ba9510c0f6, type: 3}
@@ -5512,11 +5319,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.11
-      objectReference: {fileID: 0}
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
@@ -5537,27 +5339,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: -0.0000028014183
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_Text
-      value: "Pop Art is an art form reflecting a return to material realities of
-        peoples\u2019 everyday life - it was seen as more accessible to the masses.\r\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 43
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_MinSize
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5703479463583084377, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -5588,6 +5369,32 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_Text
+      value: "Pop Art is an art form reflecting a return to material realities of
+        peoples\u2019 everyday life - it was seen as more accessible to the masses.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60c8c7e30a99d45bf93943ba9510c0f6, type: 3}
@@ -5669,25 +5476,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -1357441802983867672, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: BypassReverbZones
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.16
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -248.56
       objectReference: {fileID: 0}
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -5709,27 +5501,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: -0.000000059604645
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_Text
-      value: Pop art began in the United Kingdom in the late 1950s, but only became
-        popular in the US in the 1960s.
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_MinSize
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5703479463583084377, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -5759,6 +5530,42 @@ PrefabInstance:
     - target: {fileID: 8654282571956107334, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -248.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_Text
+      value: Pop art began in the United Kingdom in the late 1950s, but only became
+        popular in the US in the 1960s.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1357441802983867672, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: BypassReverbZones
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -6552,7 +6359,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 899851709}
-  m_Mesh: {fileID: 213985861}
+  m_Mesh: {fileID: 1540798264}
 --- !u!23 &899851712
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6725,7 +6532,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   queueAhead: 1
-  useRecommendedMSAALevel: 0
+  useRecommendedMSAALevel: 1
   _monoscopic: 0
   enableAdaptiveResolution: 0
   minRenderScale: 0.7
@@ -6922,25 +6729,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -1357441802983867672, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: BypassReverbZones
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.16
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -248.56
       objectReference: {fileID: 0}
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -6962,21 +6754,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: -0.000000059604645
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_Text
-      value: Each of the 32 canvases for the soup cans is 20 x 16" (50.8 x 40.6 cm).
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5703479463583084377, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -7006,6 +6783,36 @@ PrefabInstance:
     - target: {fileID: 8654282571956107334, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -248.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_Text
+      value: Each of the 32 canvases for the soup cans is 20 x 16" (50.8 x 40.6 cm).
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1357441802983867672, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: BypassReverbZones
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -7270,11 +7077,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.63
-      objectReference: {fileID: 0}
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
@@ -7295,21 +7097,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: -0.000000059604645
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_Text
-      value: Pop art movement began as satire.
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5703479463583084377, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -7340,6 +7127,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_Text
+      value: Pop art movement began as satire.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60c8c7e30a99d45bf93943ba9510c0f6, type: 3}
@@ -7728,11 +7535,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.36
-      objectReference: {fileID: 0}
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
@@ -7753,22 +7555,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: -0.000000059604645
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_Text
-      value: When Warhol first exhibited Campbell's Soup Cans in 1962, the canvases
-        were displayed together on shelves, like products in a grocery aisle.
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5703479463583084377, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -7799,6 +7585,27 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_Text
+      value: When Warhol first exhibited Campbell's Soup Cans in 1962, the canvases
+        were displayed together on shelves, like products in a grocery aisle.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60c8c7e30a99d45bf93943ba9510c0f6, type: 3}
@@ -8520,11 +8327,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.51
-      objectReference: {fileID: 0}
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
@@ -8545,28 +8347,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: -0.0000028014183
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_Text
-      value: 'Andy Warhol was shot (and nearly died) on 3rd June 1968.
-
-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_MinSize
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5703479463583084377, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -8597,6 +8377,33 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Andy Warhol was shot (and nearly died) on 3rd June 1968.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60c8c7e30a99d45bf93943ba9510c0f6, type: 3}
@@ -9683,11 +9490,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.01
-      objectReference: {fileID: 0}
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
@@ -9708,21 +9510,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: -0.000000059604645
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_Text
-      value: "\u201CI think everybody should be a machine.\u201D Andy Warhol"
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5703479463583084377, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -9753,6 +9540,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_Text
+      value: "\u201CI think everybody should be a machine.\u201D Andy Warhol"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60c8c7e30a99d45bf93943ba9510c0f6, type: 3}
@@ -9849,57 +9656,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.75
       objectReference: {fileID: 0}
-    - target: {fileID: 1725210643272247568, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8348248102518780936, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2986300050540301639, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.45
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 450
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 450
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -248.58
       objectReference: {fileID: 0}
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: -618208210551877760, guid: bd3efa2cfa3624e508d37cdda1bd0f62,
-        type: 3}
-    - target: {fileID: 1244866389585671478, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: -7101276297001579083, guid: bd3efa2cfa3624e508d37cdda1bd0f62,
         type: 3}
     - target: {fileID: 5851647843240404313, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -9915,23 +9681,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: -0.000000059604645
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_Text
-      value: Campbell's Soup Cans, which is sometimes referred to as 32 Campbell's
-        Soup Cans, is a work of art produced between November 1961 and March or April
-        1962 by Andy Warhol.
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5703479463583084377, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -10059,6 +9808,64 @@ PrefabInstance:
       propertyPath: m_enableAutoSizing
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -248.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_Text
+      value: Campbell's Soup Cans, which is sometimes referred to as 32 Campbell's
+        Soup Cans, is a work of art produced between November 1961 and March or April
+        1962 by Andy Warhol.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725210643272247568, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348248102518780936, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2986300050540301639, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244866389585671478, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -7101276297001579083, guid: bd3efa2cfa3624e508d37cdda1bd0f62,
+        type: 3}
     - target: {fileID: 8393616048413976529, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_text
@@ -10299,7 +10106,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 4.5905e-41, y: 0, z: 0, w: -212527.5}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 1.3e-44}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -10930,6 +10737,169 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1540404392}
   m_PrefabAsset: {fileID: 0}
+--- !u!43 &1540798264
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 12
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 2
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0.9, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000000000100000000000100010000000100010001000000
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 2
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 48
+    _typelessdata: 000000006666663f0000000000000000000000000000000000000000666666bf00000000000000000000000000000000
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0.9, z: 0}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
 --- !u!1001 &1551460736
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11158,11 +11128,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.01
-      objectReference: {fileID: 0}
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
@@ -11183,22 +11148,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: -0.000000059604645
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_Text
-      value: "\u201CI used to drink it. I used to have the same lunch every day, for
-        20 years, I guess, the same thing over and over again.\u201D Warhol"
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 45
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5703479463583084377, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -11230,6 +11179,27 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_Text
+      value: "\u201CI used to drink it. I used to have the same lunch every day, for
+        20 years, I guess, the same thing over and over again.\u201D Warhol"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60c8c7e30a99d45bf93943ba9510c0f6, type: 3}
 --- !u!4 &1556252863 stripped
@@ -11247,7 +11217,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 158226, guid: 84c8b8609f9bb434eaf5248f17ff1293, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 463470, guid: 84c8b8609f9bb434eaf5248f17ff1293, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11312,6 +11282,10 @@ PrefabInstance:
     - target: {fileID: 11437430, guid: 84c8b8609f9bb434eaf5248f17ff1293, type: 3}
       propertyPath: RightHandCustomPose
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11437430, guid: 84c8b8609f9bb434eaf5248f17ff1293, type: 3}
+      propertyPath: EnableHands
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84c8b8609f9bb434eaf5248f17ff1293, type: 3}
@@ -11501,11 +11475,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.26
-      objectReference: {fileID: 0}
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
@@ -11526,22 +11495,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: -0.000000059604645
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_Text
-      value: Andy Warhol famously appropriated familiar images from consumer culture
-        and mass media, among them celebrity and tabloid news  and comic strips.
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5703479463583084377, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -11572,6 +11525,27 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_Text
+      value: Andy Warhol famously appropriated familiar images from consumer culture
+        and mass media, among them celebrity and tabloid news  and comic strips.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60c8c7e30a99d45bf93943ba9510c0f6, type: 3}
@@ -11960,6 +11934,80 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1651054432}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1658372369
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7055861569680137165, guid: 3335b846dfc9442429383289d3db07e4,
+        type: 3}
+      propertyPath: m_Name
+      value: CustomHandRight
+      objectReference: {fileID: 0}
+    - target: {fileID: 7055861569679905731, guid: 3335b846dfc9442429383289d3db07e4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7055861569679905731, guid: 3335b846dfc9442429383289d3db07e4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7055861569679905731, guid: 3335b846dfc9442429383289d3db07e4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7055861569679905731, guid: 3335b846dfc9442429383289d3db07e4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7055861569679905731, guid: 3335b846dfc9442429383289d3db07e4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7055861569679905731, guid: 3335b846dfc9442429383289d3db07e4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7055861569679905731, guid: 3335b846dfc9442429383289d3db07e4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 7055861569679905731, guid: 3335b846dfc9442429383289d3db07e4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7055861569679905731, guid: 3335b846dfc9442429383289d3db07e4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7055861569679905731, guid: 3335b846dfc9442429383289d3db07e4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7055861569679905731, guid: 3335b846dfc9442429383289d3db07e4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7055861569689780757, guid: 3335b846dfc9442429383289d3db07e4,
+        type: 3}
+      propertyPath: m_parentTransform
+      value: 
+      objectReference: {fileID: 922829722}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3335b846dfc9442429383289d3db07e4, type: 3}
 --- !u!1001 &1666638081
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12734,57 +12782,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.75
       objectReference: {fileID: 0}
-    - target: {fileID: 1725210643272247568, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8348248102518780936, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2986300050540301639, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.32
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 450
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 450
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -248.58
       objectReference: {fileID: 0}
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: -618208210551877760, guid: bd3efa2cfa3624e508d37cdda1bd0f62,
-        type: 3}
-    - target: {fileID: 1244866389585671478, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: -7101276297001579083, guid: bd3efa2cfa3624e508d37cdda1bd0f62,
         type: 3}
     - target: {fileID: 5851647843240404313, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -12800,23 +12807,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: -0.000000059604645
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_Text
-      value: Andy Warhol turned to screen printing after creating this piece. Screen
-        printing consists of transferring an image onto the mesh of a silk screen
-        and passing ink through to impress a print onto canvas.
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5703479463583084377, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -12944,6 +12934,64 @@ PrefabInstance:
       propertyPath: m_enableAutoSizing
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -248.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_Text
+      value: Andy Warhol turned to screen printing after creating this piece. Screen
+        printing consists of transferring an image onto the mesh of a silk screen
+        and passing ink through to impress a print onto canvas.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725210643272247568, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348248102518780936, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2986300050540301639, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244866389585671478, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -7101276297001579083, guid: bd3efa2cfa3624e508d37cdda1bd0f62,
+        type: 3}
     - target: {fileID: 8393616048413976529, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_text
@@ -15621,57 +15669,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.75
       objectReference: {fileID: 0}
-    - target: {fileID: 1725210643272247568, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8348248102518780936, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2986300050540301639, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.32
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 450
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 450
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -248.58
       objectReference: {fileID: 0}
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: -618208210551877760, guid: bd3efa2cfa3624e508d37cdda1bd0f62,
-        type: 3}
-    - target: {fileID: 1244866389585671478, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: -7101276297001579083, guid: bd3efa2cfa3624e508d37cdda1bd0f62,
         type: 3}
     - target: {fileID: 5851647843240404313, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -15687,21 +15694,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: -0.000000059604645
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_Text
-      value: The predominant colors in Pop Art  are yellow, red and blue.
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5703479463583084377, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -15829,6 +15821,62 @@ PrefabInstance:
       propertyPath: m_enableAutoSizing
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -248.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_Text
+      value: The predominant colors in Pop Art  are yellow, red and blue.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725210643272247568, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348248102518780936, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2986300050540301639, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244866389585671478, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -7101276297001579083, guid: bd3efa2cfa3624e508d37cdda1bd0f62,
+        type: 3}
     - target: {fileID: 8393616048413976529, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_text
