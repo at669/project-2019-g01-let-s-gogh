@@ -8,6 +8,9 @@ public class PourSoup : MonoBehaviour
     //[SerializeField]
     ParticleSystem smolSoup;
     public GameObject Soup;
+    public GameObject SoupSpherePrefab;
+    public GameObject BowlSphere;
+    public GameObject bowl;
     bool finishedPouring = true;
     // Start is called before the first frame update
     void Start()
@@ -33,13 +36,13 @@ public class PourSoup : MonoBehaviour
             {
                 soupInCan.transform.localScale = new Vector3(soupInCan.transform.localScale.x, soupInCan.transform.localScale.y - decrease, soupInCan.transform.localScale.z);
                 finishedPouring = false;
-                Debug.Log("what is happening");
+                //Debug.Log("what is happening");
             }
             else
             {
                 finishedPouring = true;
                 Soup.SetActive(false);
-                Debug.Log("finished");
+                //Debug.Log("finished");
             }
         }
         else
@@ -52,8 +55,17 @@ public class PourSoup : MonoBehaviour
         {
             //StartCoroutine(coroutine);
             Soup.SetActive(true);
-            Debug.Log("Pouring????");
+            //Debug.Log("Pouring????");
             //finishedPouring = true;
+            //if (Soup.transform.position.x > BowlSphere.transform.position.x - 0.25 && Soup.transform.position.x < BowlSphere.transform.position.x + 0.25)
+            //{
+                //if (Soup.transform.position.z > BowlSphere.transform.position.z - 0.25 && Soup.transform.position.z < BowlSphere.transform.position.z + 0.25)
+                //{
+                    //Vector3 soupPosition = new Vector3(bowl.transform.position.x, bowl.transform.position.y + 0.05f, bowl.transform.position.z);
+                    //Instantiate(SoupSpherePrefab, soupPosition, Quaternion.identity);
+                    //Debug.Log("fill up the bowl");
+                //}
+            //}
         }
     }
 }
