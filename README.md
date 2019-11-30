@@ -25,3 +25,13 @@
 
 ### Textures, Materials
 - [Wood Textures](https://assetstore.unity.com/packages/2d/textures-materials/wood/15-original-wood-texture-71286)
+
+### Audio
+- [Can Clattering](https://www.youtube.com/watch?v=4GTsNfIWcMU)
+- [1950s Jazz](https://www.youtube.com/watch?v=4N1KlyEbazo)
+
+### Fun Facts
+- [Andy Warhol's Soup](https://www.mentalfloss.com/article/71814/16-things-you-might-not-know-about-andy-warhols-campbells-soup-cans)
+- [Andy Warhol](http://primaryfacts.com/818/10-andy-warhol-facts/)
+- [Pop Art](https://artlistr.com/pop-art-6-interesting-facts/)
+- [Campbell's Soup Cans](https://en.wikipedia.org/wiki/Campbell's_Soup_Cans)
