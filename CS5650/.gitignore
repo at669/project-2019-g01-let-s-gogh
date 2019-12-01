@@ -24,10 +24,15 @@ ExportedObj/
 *.svd
 *.pdb
 *.opendb
+*.VC.db
+
+# TextMesh Pro files
+[Aa]ssets/TextMesh*Pro/
 
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
+*.mdb.meta
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
@@ -38,3 +43,16 @@ sysinfo.txt
 .DS_Store
 Assets/.DS_Store
 Assets/Scripts/.DS_Store
+*.symbols.zip
+
+# Crashlytics generated file
+crashlytics-build.properties
+
+# OS generated 
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
