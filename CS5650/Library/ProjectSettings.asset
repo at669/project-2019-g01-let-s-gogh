@@ -164,7 +164,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.DefaultCompany.CS5650.wx95
+    Android: com.DefaultCompany.CS5650.ck753
     Standalone: com.CornellTech.CS5650.at669
   buildNumber: {}
   AndroidBundleVersionCode: 1
