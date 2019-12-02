@@ -24,6 +24,7 @@ public class SculptSlider : MonoBehaviour
     // bool inMenu;
     public Vector3 origScale;
     public int sculptID = 0;
+    private float prevRot = 0;
 
 	void Start ()
     {
@@ -31,7 +32,7 @@ public class SculptSlider : MonoBehaviour
         var sliderPrefab = DebugUIBuilder.instance.AddSlider("Scale", 1f, 2.0f, SliderPressed, false, sculptID);
         var sliderRot = DebugUIBuilder.instance.AddSlider("Rotation", 0f, 360f, SliderRotate, true, sculptID);
         var textElementsInSlider = sliderPrefab.GetComponentsInChildren<Text>();
-        var textElementsInRotSlider = sliderPrefab.GetComponentsInChildren<Text>();
+        var textElementsInRotSlider = sliderRot.GetComponentsInChildren<Text>();
         sliderText = textElementsInSlider[1];
         sliderText.text = sliderRot.GetComponentInChildren<Slider>().value.ToString();
         rotText = textElementsInRotSlider[1];
@@ -57,7 +58,8 @@ public class SculptSlider : MonoBehaviour
     public void SliderRotate(float f)
     {
         rotText.text = f.ToString();
-        transform.Rotate(transform.rotation.x, transform.rotation.y, f, Space.Self);
+        transform.Rotate(0, 0, prevRot - f, Space.Self);
+        prevRot = f;
     }
 
     void Update()
