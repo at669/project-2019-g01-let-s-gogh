@@ -19,21 +19,17 @@ public class clankClonk : MonoBehaviour
         if (collision.gameObject.CompareTag("floor"))
         {
             hitGround = true;
-            Debug.Log("floor detected");
         }
     }
 
     void Update()
     {
-        
-        Debug.Log(canDrop);
         //if the can hits the floor then:
         if (hitGround)
         {
             if (!canDrop.isPlaying)
             {
                 canDrop.Play();
-                Debug.Log("clink clank");
                 hitGround = false;
             }
         }
