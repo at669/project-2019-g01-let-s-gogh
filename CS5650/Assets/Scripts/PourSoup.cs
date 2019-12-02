@@ -6,28 +6,25 @@ public class PourSoup : MonoBehaviour
 {
     public GameObject soupInCan;
     //[SerializeField]
-    ParticleSystem smolSoup;
+    public ParticleSystem smolSoup;
     public GameObject Soup;
     public GameObject SoupSpherePrefab;
-    public GameObject BowlSphere;
     public GameObject bowl;
+    public GameObject BowlSoup;
+    public GameObject cap;
     bool finishedPouring = true;
     // Start is called before the first frame update
     void Start()
     {        
-        smolSoup = Soup.GetComponent<ParticleSystem>();
-        //Soup.transform.gameObject.SetActive(false);
-        //transform.localRotation = Quaternion.identity;
+        soupInCan.transform.position = transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
-        soupInCan.transform.position = transform.position;
         soupInCan.transform.rotation = transform.rotation;
-        //don't know if you can keep the puddle of particles in one spot while moving the base of the particle system...
-        //Debug.Log(transform.localRotation);
-        //Debug.Log(Quaternion.identity);
+        cap.transform.position = transform.position;
+        cap.transform.rotation = transform.rotation;
         if (transform.rotation != Quaternion.identity)
         {
             float decrease = 0.001f;
@@ -35,6 +32,7 @@ public class PourSoup : MonoBehaviour
             if (soupInCan.transform.localScale.y > 0.001f)
             {
                 soupInCan.transform.localScale = new Vector3(soupInCan.transform.localScale.x, soupInCan.transform.localScale.y - decrease, soupInCan.transform.localScale.z);
+                //soupInCan.transform.position = new Vector3(transform.position.x, soupInCan.transform.position.y - decrease/10, transform.position.z);
                 finishedPouring = false;
                 //Debug.Log("what is happening");
             }
@@ -53,19 +51,15 @@ public class PourSoup : MonoBehaviour
 
         if (!finishedPouring)
         {
-            //StartCoroutine(coroutine);
             Soup.SetActive(true);
-            //Debug.Log("Pouring????");
-            //finishedPouring = true;
-            //if (Soup.transform.position.x > BowlSphere.transform.position.x - 0.25 && Soup.transform.position.x < BowlSphere.transform.position.x + 0.25)
-            //{
-                //if (Soup.transform.position.z > BowlSphere.transform.position.z - 0.25 && Soup.transform.position.z < BowlSphere.transform.position.z + 0.25)
-                //{
-                    //Vector3 soupPosition = new Vector3(bowl.transform.position.x, bowl.transform.position.y + 0.05f, bowl.transform.position.z);
-                    //Instantiate(SoupSpherePrefab, soupPosition, Quaternion.identity);
-                    //Debug.Log("fill up the bowl");
-                //}
-            //}
+            if (smolSoup.transform.position.x > bowl.transform.position.x - 0.15f && smolSoup.transform.position.x < bowl.transform.position.x + 0.15f)
+            {
+                if (smolSoup.transform.position.z > bowl.transform.position.z - 0.15f && smolSoup.transform.position.z < bowl.transform.position.z + 0.15f)
+                {
+                    Vector3 soupPosition = new Vector3(bowl.transform.position.x, bowl.transform.position.y + 0.1f, bowl.transform.position.z);
+                    Instantiate(SoupSpherePrefab, soupPosition, Quaternion.identity);
+                }
+            }
         }
     }
 }
