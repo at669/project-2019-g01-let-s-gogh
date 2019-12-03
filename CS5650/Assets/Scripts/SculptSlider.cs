@@ -9,6 +9,8 @@ using UnityEngine.Events;
 // Show off all the Debug UI components.
 public class SculptSlider : MonoBehaviour
 {
+    public NewUIBuilder NewUIBuilderObj;
+    private NewUIBuilder instance;
     public string Title;
     public string Artist;
     public string Year;
@@ -38,13 +40,17 @@ public class SculptSlider : MonoBehaviour
 
 	// protected override void Start() {
     void Start() {
+        instance = NewUIBuilderObj.getInstance();
         lc = FindObjectOfType<LocomotionController>();
-        DebugUIBuilder.instance.AddLabel(Title, sculptID);
-        DebugUIBuilder.instance.AddLabel(Artist, sculptID);
-        DebugUIBuilder.instance.AddLabel(Year, sculptID);
+        instance.AddLabel(Title);
+        if (Artist.Length > 0) {
+            instance.AddLabel(Artist);
+        }
+        
+        instance.AddLabel(Year);
 
-        var sliderPrefab = DebugUIBuilder.instance.AddSlider("Scale", 1f, 2.0f, SliderPressed, false, sculptID);
-        var sliderRot = DebugUIBuilder.instance.AddSlider("Rotation", 0f, 360f, SliderRotate, true, sculptID);
+        var sliderPrefab = instance.AddSlider("Scale", 1f, 2.0f, SliderPressed, false);
+        var sliderRot = instance.AddSlider("Rotation", 0f, 360f, SliderRotate, true);
         var textElementsInSlider = sliderPrefab.GetComponentsInChildren<Text>();
         var textElementsInRotSlider = sliderRot.GetComponentsInChildren<Text>();
         textElementsInSlider[0].text = "Scale:";
@@ -53,8 +59,8 @@ public class SculptSlider : MonoBehaviour
         sliderText.text = sliderRot.GetComponentInChildren<Slider>().value.ToString();
         rotText = textElementsInRotSlider[1];
         rotText.text = sliderRot.GetComponentInChildren<Slider>().value.ToString();
-        DebugUIBuilder.instance.SculptShow(sculptID);
-        DebugUIBuilder.instance.Hide();
+        instance.SculptShow(sculptID);
+        instance.Hide();
         inMenu = false;
 
         origScale = transform.localScale;
@@ -71,7 +77,13 @@ public class SculptSlider : MonoBehaviour
     public void SliderRotate(float f)
     {
         rotText.text = f.ToString();
-        transform.Rotate(0, 0, prevRot - f, Space.Self);
+        // if (sculptID == 0){
+        //     transform.Rotate(0, 0, prevRot - f, Space.Self);
+        // }
+        // else {
+        //     transform.Rotate(0, prevRot - f, 0, Space.Self);
+        // }
+        transform.Rotate(0, prevRot - f, 0, Space.Self);
         prevRot = f;
     }
 
@@ -79,8 +91,8 @@ public class SculptSlider : MonoBehaviour
     {
         if(OVRInput.GetDown(OVRInput.Button.Two) || OVRInput.GetDown(OVRInput.Button.Start))
         {
-            if (inMenu) DebugUIBuilder.instance.Hide();
-            else DebugUIBuilder.instance.SculptShow(sculptID);
+            if (inMenu) instance.Hide();
+            else instance.SculptShow(sculptID);
             inMenu = !inMenu;
         }
 
@@ -96,12 +108,12 @@ public class SculptSlider : MonoBehaviour
 
     private void Interact(RaycastHit hit){
         if (hit.collider.name.StartsWith("Sculpt")){
-            if (inMenu) DebugUIBuilder.instance.Hide();
-            else DebugUIBuilder.instance.SculptShow(sculptID);
+            if (inMenu) instance.Hide();
+            else instance.SculptShow(sculptID);
             inMenu = !inMenu;
         }
         else{
-            if (inMenu) DebugUIBuilder.instance.Hide();
+            if (inMenu) instance.Hide();
             inMenu = false;
         }
     }
