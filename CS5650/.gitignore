@@ -39,6 +39,8 @@ sysinfo.txt
 Assets/.DS_Store
 Assets/Scripts/.DS_Store
 
+*mainStage.json
+
 CS5650/Library/assetDatabase3
 CS5650/Library/ShaderCache/EditorEncounteredVariants
 CS5650/Library/SceneVisibilityState.asset
