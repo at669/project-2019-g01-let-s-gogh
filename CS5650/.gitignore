@@ -38,3 +38,9 @@ sysinfo.txt
 .DS_Store
 Assets/.DS_Store
 Assets/Scripts/.DS_Store
+
+CS5650/Library/assetDatabase3
+CS5650/Library/ShaderCache/EditorEncounteredVariants
+CS5650/Library/SceneVisibilityState.asset
+CS5650/Library/InspectorExpandedItems.asset
+CS5650/Library/EditorUserBuildSettings.asset
