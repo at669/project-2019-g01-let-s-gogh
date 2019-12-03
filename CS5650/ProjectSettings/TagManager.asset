@@ -6,6 +6,8 @@ TagManager:
   tags:
   - can
   - floor
+  - soupParticles
+  - bowl
   layers:
   - Default
   - TransparentFX
@@ -15,7 +17,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - bowlSphereIgnore
   - 
   - 
   - 
