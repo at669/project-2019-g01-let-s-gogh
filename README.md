@@ -19,6 +19,16 @@
 
 ### Models
 
+#### Lobby
+
+- [Display Table](https://sketchfab.com/3d-models/kure-console-table-distressed-black-100752-2a0804079a3c480c87446ece78aacb9e)
+- [Makeup Compact](https://sketchfab.com/3d-models/makeup-compact-early-mid-20th-century-d327863a439840ef9de43f63d08a6999)
+- [Rosetta Stone](https://sketchfab.com/3d-models/rosetta-stone-ultra-low-poly-a9efe7bf59c14f39807115fa2379c363)
+- [Shawabti](https://sketchfab.com/3d-models/shawabti-f4357588b5d04c8bbfd5f3128da5e351)
+- [Bench](https://www.turbosquid.com/3d-models/george-nelson-wood-base-max-free/648055)
+
+#### Campbell's Soup
+
 - [Campbell's Soup](https://sketchfab.com/3d-models/campbells-soup-by-andy-warhol-ad6f16b1e0b544149406df8215997bb6)
 - [Soup Can](https://sketchfab.com/3d-models/soup-can-1a67ade7bce34c0ba785f9544d460dfc)
 - [Shelf](https://poly.google.com/view/9NZBndzMCRo)
