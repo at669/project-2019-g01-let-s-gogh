@@ -23,7 +23,7 @@ public class armyOfAnts : MonoBehaviour
     {
         if (grabState.isGrabbed == true)
         {
-            Instantiate(smolAnt, transform.position, Quaternion.identity);
+            Instantiate(smolAnt, new Vector3(transform.position.x, transform.position.y + 0.05f, transform.position.z), Quaternion.identity);
         }
 
         if (grabState.isGrabbed == true && (OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger) > 0.5f))
