@@ -23,12 +23,6 @@ public class NewUIBuilder : MonoBehaviour
   // fix bug where it seems to appear at a random offset
   // support remove
 
-  // Convenience consts for clarity when using multiple debug panes. 
-  // But note that you can an arbitrary number of panes if you add them in the inspector.
-//   public const int DEBUG_PANE_CENTER = 0;
-//   public const int DEBUG_PANE_RIGHT = 1;
-//   public const int DEBUG_PANE_LEFT = 2;
-
   public GameObject sculpture;
   public GameObject painting;
 
@@ -44,9 +38,6 @@ public class NewUIBuilder : MonoBehaviour
   private RectTransform togglePrefab;
   [SerializeField]
   private RectTransform radioPrefab;
-
-//   [SerializeField]
-//   private GameObject uiHelpersToInstantiate;
 
   [SerializeField]
   private Transform[] targetContentPanels;
