@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311912, g: 0.3807398, b: 0.3587272, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.3587269, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -511,14 +511,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-    - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-=======
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
@@ -546,8 +538,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8654282571956107334, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-=======
         type: 3}
       propertyPath: m_textInfo.characterCount
       value: 0
@@ -601,7 +591,29 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
+        type: 3}
+      propertyPath: m_Text
+      value: 'In 1949, Andy Warhol moved to New York City from the School of Fine
+        Arts at the renowned Carnegie Institute of Technology.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Text
       value: 'In 1949, Andy Warhol moved to New York City from the School of Fine
@@ -633,29 +645,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0.11
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_Text
-      value: 'In 1949, Andy Warhol moved to New York City from the School of Fine
-        Arts at the renowned Carnegie Institute of Technology.
-
-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 43
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_MinSize
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60c8c7e30a99d45bf93943ba9510c0f6, type: 3}
@@ -1555,14 +1544,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 220165319}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
---- !u!4 &223974230 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7055861569679905731, guid: 3335b846dfc9442429383289d3db07e4,
-    type: 3}
-  m_PrefabInstance: {fileID: 1658372369}
-  m_PrefabAsset: {fileID: 0}
-=======
 --- !u!1 &223974226 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 3f222fad52868304688e137d2b7b27e8,
@@ -1585,7 +1566,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
 --- !u!1001 &240426280
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1794,14 +1774,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-    - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-=======
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
@@ -1853,17 +1825,6 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.16
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -248.56
-=======
     - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -1883,7 +1844,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_Alignment
       value: 1
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
       objectReference: {fileID: 0}
     - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -1900,8 +1860,6 @@ PrefabInstance:
       propertyPath: m_FontData.m_Alignment
       value: 1
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-=======
     - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1912,7 +1870,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -248.56
       objectReference: {fileID: 0}
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     - target: {fileID: -1357441802983867672, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: BypassReverbZones
@@ -2525,12 +2482,6 @@ Transform:
   m_Father: {fileID: 1459808667}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &320558097 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2247222032336988140, guid: b4085886f87984ebb90cb483b24a9898,
-    type: 3}
-  m_PrefabInstance: {fileID: 408681256}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &321582527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2899,87 +2850,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
---- !u!1001 &408681256
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2247222032337256984, guid: b4085886f87984ebb90cb483b24a9898,
-        type: 3}
-      propertyPath: m_Name
-      value: CustomHandLeft
-      objectReference: {fileID: 0}
-    - target: {fileID: 2247222032337256984, guid: b4085886f87984ebb90cb483b24a9898,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2247222032336988140, guid: b4085886f87984ebb90cb483b24a9898,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2247222032336988140, guid: b4085886f87984ebb90cb483b24a9898,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2247222032336988140, guid: b4085886f87984ebb90cb483b24a9898,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2247222032336988140, guid: b4085886f87984ebb90cb483b24a9898,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2247222032336988140, guid: b4085886f87984ebb90cb483b24a9898,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2247222032336988140, guid: b4085886f87984ebb90cb483b24a9898,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2247222032336988140, guid: b4085886f87984ebb90cb483b24a9898,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071067
-      objectReference: {fileID: 0}
-    - target: {fileID: 2247222032336988140, guid: b4085886f87984ebb90cb483b24a9898,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2247222032336988140, guid: b4085886f87984ebb90cb483b24a9898,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2247222032336988140, guid: b4085886f87984ebb90cb483b24a9898,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2247222032336988140, guid: b4085886f87984ebb90cb483b24a9898,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 2247222032327015052, guid: b4085886f87984ebb90cb483b24a9898,
-        type: 3}
-      propertyPath: m_parentTransform
-      value: 
-      objectReference: {fileID: 922829722}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b4085886f87984ebb90cb483b24a9898, type: 3}
-=======
 --- !u!1 &360546278
 GameObject:
   m_ObjectHideFlags: 0
@@ -3090,7 +2960,6 @@ MonoBehaviour:
   smolSoup: {fileID: 520517953}
   SoupSpherePrefab: {fileID: 8093265883450206919, guid: 8d461721727ae2741bf28326c175a26f,
     type: 3}
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
 --- !u!1001 &422032750
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9110,14 +8979,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-    - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-=======
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
@@ -9169,12 +9030,6 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.38
-=======
     - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -9195,7 +9050,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_Alignment
       value: 1
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
       objectReference: {fileID: 0}
     - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -9213,14 +9067,11 @@ PrefabInstance:
       propertyPath: m_FontData.m_Alignment
       value: 1
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-=======
     - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0.38
       objectReference: {fileID: 0}
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60c8c7e30a99d45bf93943ba9510c0f6, type: 3}
 --- !u!4 &539878129 stripped
@@ -9437,15 +9288,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-=======
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: -618208210551877760, guid: bd3efa2cfa3624e508d37cdda1bd0f62,
         type: 3}
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     - target: {fileID: 5851647843240404313, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
@@ -10357,7 +10205,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 0ffeb32a7b3f18149a0609678752302e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0ffeb32a7b3f18149a0609678752302e,
         type: 3}
@@ -10560,14 +10408,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-    - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-=======
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
@@ -10590,24 +10430,6 @@ PrefabInstance:
       value: -0.0000028014183
       objectReference: {fileID: 0}
     - target: {fileID: 5703479463583084377, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8654282571956107334, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8654282571956107334, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_textInfo.spaceCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8654282571956107334, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-=======
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
         type: 3}
       propertyPath: m_textInfo.wordCount
       value: 0
@@ -10622,29 +10444,6 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.11
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_Text
-      value: "Pop Art is an art form reflecting a return to material realities of
-        peoples\u2019 everyday life - it was seen as more accessible to the masses.\r\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 43
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_MinSize
-      value: 0
-      objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-=======
     - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -10666,14 +10465,27 @@ PrefabInstance:
       propertyPath: m_FontData.m_MinSize
       value: 0
       objectReference: {fileID: 0}
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_Text
+      value: "Pop Art is an art form reflecting a return to material realities of
+        peoples\u2019 everyday life - it was seen as more accessible to the masses.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_FontData.m_Alignment
       value: 1
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-=======
     - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Text
@@ -10700,7 +10512,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0.11
       objectReference: {fileID: 0}
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60c8c7e30a99d45bf93943ba9510c0f6, type: 3}
 --- !u!4 &738914516 stripped
@@ -10781,14 +10597,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-    - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-=======
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
@@ -10811,8 +10619,6 @@ PrefabInstance:
       value: -0.000000059604645
       objectReference: {fileID: 0}
     - target: {fileID: 5703479463583084377, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-=======
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
@@ -10869,7 +10675,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
         type: 3}
       propertyPath: m_Text
       value: Pop art began in the United Kingdom in the late 1950s, but only became
@@ -10889,6 +10694,37 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_MinSize
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_Text
+      value: Pop art began in the United Kingdom in the late 1950s, but only became
+        popular in the US in the 1960s.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -248.56
       objectReference: {fileID: 0}
     - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -10903,37 +10739,6 @@ PrefabInstance:
     - target: {fileID: -1357441802983867672, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: BypassReverbZones
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.16
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -248.56
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_Text
-      value: Pop art began in the United Kingdom in the late 1950s, but only became
-        popular in the US in the 1960s.
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_MinSize
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -1357441802983867672, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
@@ -11085,169 +10890,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 785705934}
   m_PrefabAsset: {fileID: 0}
---- !u!43 &789247962
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  serializedVersion: 10
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 12
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 2
-    localAABB:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0, y: 0.9, z: 0}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000000000100000000000100010000000100010001000000
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 2
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 48
-    _typelessdata: 000000006666663f0000000000000000000000000000000000000000666666bf00000000000000000000000000000000
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0.9, z: 0}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &821665979
 GameObject:
   m_ObjectHideFlags: 0
@@ -11997,11 +11639,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 899851709}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-  m_Mesh: {fileID: 1849553384}
-=======
-  m_Mesh: {fileID: 789247962}
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
+  m_Mesh: {fileID: 1197808276}
 --- !u!23 &899851712
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12371,14 +12009,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-    - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-=======
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
@@ -12430,17 +12060,6 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.16
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -248.56
-=======
     - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -12460,7 +12079,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_Alignment
       value: 1
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
       objectReference: {fileID: 0}
     - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -12477,8 +12095,6 @@ PrefabInstance:
       propertyPath: m_FontData.m_Alignment
       value: 1
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-=======
     - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -12489,7 +12105,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -248.56
       objectReference: {fileID: 0}
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     - target: {fileID: -1357441802983867672, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: BypassReverbZones
@@ -12752,14 +12367,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-    - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-=======
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
@@ -12811,17 +12418,10 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.63
-=======
     - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
       objectReference: {fileID: 0}
     - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -12838,8 +12438,6 @@ PrefabInstance:
       propertyPath: m_FontData.m_Alignment
       value: 1
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-=======
     - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Text
@@ -12860,7 +12458,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0.63
       objectReference: {fileID: 0}
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60c8c7e30a99d45bf93943ba9510c0f6, type: 3}
 --- !u!4 &1050865500 stripped
@@ -13372,14 +12969,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-    - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-=======
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
@@ -13431,12 +13020,6 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.36
-=======
     - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -13457,7 +13040,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_Alignment
       value: 1
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
       objectReference: {fileID: 0}
     - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -13475,14 +13057,11 @@ PrefabInstance:
       propertyPath: m_FontData.m_Alignment
       value: 1
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-=======
     - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0.36
       objectReference: {fileID: 0}
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60c8c7e30a99d45bf93943ba9510c0f6, type: 3}
 --- !u!4 &1148843854 stripped
@@ -14198,14 +13777,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-    - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-=======
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
@@ -14233,8 +13804,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8654282571956107334, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-=======
         type: 3}
       propertyPath: m_textInfo.characterCount
       value: 0
@@ -14287,7 +13856,28 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
+        type: 3}
+      propertyPath: m_Text
+      value: 'Andy Warhol was shot (and nearly died) on 3rd June 1968.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Text
       value: 'Andy Warhol was shot (and nearly died) on 3rd June 1968.
@@ -14318,28 +13908,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0.51
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_Text
-      value: 'Andy Warhol was shot (and nearly died) on 3rd June 1968.
-
-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_MinSize
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60c8c7e30a99d45bf93943ba9510c0f6, type: 3}
@@ -14485,6 +14053,169 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1188185854}
   m_PrefabAsset: {fileID: 0}
+--- !u!43 &1197808276
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 12
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 2
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0.9, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000000000100000000000100010000000100010001000000
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 2
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 48
+    _typelessdata: 000000006666663f0000000000000000000000000000000000000000666666bf00000000000000000000000000000000
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0.9, z: 0}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &1202981967
 GameObject:
   m_ObjectHideFlags: 0
@@ -15421,14 +15152,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-    - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-=======
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
@@ -15480,17 +15203,10 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.01
-=======
     - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
       objectReference: {fileID: 0}
     - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -15507,8 +15223,6 @@ PrefabInstance:
       propertyPath: m_FontData.m_Alignment
       value: 1
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-=======
     - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Text
@@ -15529,7 +15243,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0.01
       objectReference: {fileID: 0}
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60c8c7e30a99d45bf93943ba9510c0f6, type: 3}
 --- !u!4 &1416008409 stripped
@@ -15625,14 +15338,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.75
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-    - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-=======
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
@@ -15780,27 +15485,6 @@ PrefabInstance:
       propertyPath: m_enableAutoSizing
       value: 1
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.45
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 450
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 450
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -248.58
-=======
     - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -15822,7 +15506,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_Alignment
       value: 1
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
       objectReference: {fileID: 0}
     - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -15841,8 +15524,6 @@ PrefabInstance:
       propertyPath: m_FontData.m_Alignment
       value: 1
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-=======
     - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -15863,7 +15544,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -248.58
       objectReference: {fileID: 0}
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     - target: {fileID: 1725210643272247568, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_IsActive
@@ -16979,14 +16659,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-    - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-=======
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
@@ -17011,8 +16683,6 @@ PrefabInstance:
     - target: {fileID: 5703479463583084377, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_LocalPosition.z
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-=======
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8654282571956107334, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
@@ -17023,7 +16693,6 @@ PrefabInstance:
     - target: {fileID: 8654282571956107334, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_textInfo.spaceCount
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8654282571956107334, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
@@ -17078,16 +16747,6 @@ PrefabInstance:
       propertyPath: m_FontData.m_Alignment
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.01
-      objectReference: {fileID: 0}
     - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Text
@@ -17103,6 +16762,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_Alignment
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60c8c7e30a99d45bf93943ba9510c0f6, type: 3}
@@ -17374,14 +17043,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-    - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-=======
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
@@ -17433,12 +17094,6 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.26
-=======
     - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -17459,7 +17114,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_Alignment
       value: 1
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
       objectReference: {fileID: 0}
     - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -17477,14 +17131,11 @@ PrefabInstance:
       propertyPath: m_FontData.m_Alignment
       value: 1
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-=======
     - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0.26
       objectReference: {fileID: 0}
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60c8c7e30a99d45bf93943ba9510c0f6, type: 3}
 --- !u!4 &1595268655 stripped
@@ -17872,131 +17523,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1651054432}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
---- !u!1001 &1658372369
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 7055861569680137165, guid: 3335b846dfc9442429383289d3db07e4,
-        type: 3}
-      propertyPath: m_Name
-      value: CustomHandRight
-      objectReference: {fileID: 0}
-    - target: {fileID: 7055861569680137165, guid: 3335b846dfc9442429383289d3db07e4,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7055861569679905731, guid: 3335b846dfc9442429383289d3db07e4,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7055861569679905731, guid: 3335b846dfc9442429383289d3db07e4,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7055861569679905731, guid: 3335b846dfc9442429383289d3db07e4,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7055861569679905731, guid: 3335b846dfc9442429383289d3db07e4,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7055861569679905731, guid: 3335b846dfc9442429383289d3db07e4,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7055861569679905731, guid: 3335b846dfc9442429383289d3db07e4,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 7055861569679905731, guid: 3335b846dfc9442429383289d3db07e4,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071067
-      objectReference: {fileID: 0}
-    - target: {fileID: 7055861569679905731, guid: 3335b846dfc9442429383289d3db07e4,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 7055861569679905731, guid: 3335b846dfc9442429383289d3db07e4,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7055861569679905731, guid: 3335b846dfc9442429383289d3db07e4,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7055861569679905731, guid: 3335b846dfc9442429383289d3db07e4,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 7055861569689780757, guid: 3335b846dfc9442429383289d3db07e4,
-        type: 3}
-      propertyPath: m_parentTransform
-      value: 
-      objectReference: {fileID: 922829722}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3335b846dfc9442429383289d3db07e4, type: 3}
-=======
---- !u!1 &1657327079
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1657327081}
-  - component: {fileID: 1657327080}
-  m_Layer: 0
-  m_Name: SampleSupport
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1657327080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1657327079}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d18bd321411666d42af10047cfc9d02f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1657327081
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1657327079}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.43, y: 1, z: 5.86}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
 --- !u!1001 &1666638081
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18327,7 +17853,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 3f222fad52868304688e137d2b7b27e8,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3f222fad52868304688e137d2b7b27e8,
         type: 3}
@@ -18861,29 +18387,18 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.75
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-    - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-=======
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: -618208210551877760, guid: bd3efa2cfa3624e508d37cdda1bd0f62,
         type: 3}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-=======
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: -618208210551877760, guid: bd3efa2cfa3624e508d37cdda1bd0f62,
         type: 3}
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     - target: {fileID: 5851647843240404313, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
@@ -18899,8 +18414,6 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.z
       value: -0.000000059604645
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-=======
     - target: {fileID: 5851647843240404313, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
@@ -18926,7 +18439,6 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 200
       objectReference: {fileID: 0}
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     - target: {fileID: 5703479463583084377, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -19053,27 +18565,6 @@ PrefabInstance:
       propertyPath: m_enableAutoSizing
       value: 1
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.32
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 450
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 450
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -248.58
-=======
     - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -19095,7 +18586,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_Alignment
       value: 1
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
       objectReference: {fileID: 0}
     - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
@@ -19114,8 +18604,6 @@ PrefabInstance:
       propertyPath: m_FontData.m_Alignment
       value: 1
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-=======
     - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_SizeDelta.y
@@ -19146,7 +18634,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -248.58
       objectReference: {fileID: 0}
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     - target: {fileID: 1725210643272247568, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_IsActive
@@ -19168,15 +18655,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -7101276297001579083, guid: bd3efa2cfa3624e508d37cdda1bd0f62,
         type: 3}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-=======
     - target: {fileID: 1244866389585671478, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: -7101276297001579083, guid: bd3efa2cfa3624e508d37cdda1bd0f62,
         type: 3}
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     - target: {fileID: 8393616048413976529, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_text
@@ -20858,169 +20342,6 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!43 &1849553384
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  serializedVersion: 10
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 12
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 2
-    localAABB:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0, y: 0.9, z: 0}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000000000100000000000100010000000100010001000000
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 2
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 48
-    _typelessdata: 000000006666663f0000000000000000000000000000000000000000666666bf00000000000000000000000000000000
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0.9, z: 0}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    offset: 0
-    size: 0
-    path: 
 --- !u!1001 &1867262552
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22143,26 +21464,12 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.75
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-    - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: -618208210551877760, guid: bd3efa2cfa3624e508d37cdda1bd0f62,
         type: 3}
-=======
-    - target: {fileID: 1443928024841327440, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: -618208210551877760, guid: bd3efa2cfa3624e508d37cdda1bd0f62,
-        type: 3}
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
     - target: {fileID: 5851647843240404313, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
@@ -22304,9 +21611,6 @@ PrefabInstance:
       propertyPath: m_enableAutoSizing
       value: 1
       objectReference: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-=======
     - target: {fileID: 198527848019943537, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -22342,68 +21646,6 @@ PrefabInstance:
       propertyPath: m_FontData.m_Alignment
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.32
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 450
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 450
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -248.58
-      objectReference: {fileID: 0}
-    - target: {fileID: 1725210643272247568, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8348248102518780936, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2986300050540301639, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1244866389585671478, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: -7101276297001579083, guid: bd3efa2cfa3624e508d37cdda1bd0f62,
-        type: 3}
-    - target: {fileID: 8393616048413976529, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.32
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 450
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 450
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -248.58
-      objectReference: {fileID: 0}
     - target: {fileID: 1777227813760029604, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_Text
@@ -22419,12 +21661,62 @@ PrefabInstance:
       propertyPath: m_FontData.m_Alignment
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -248.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861621422598400572, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -248.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725210643272247568, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1725210643272247568, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8348248102518780936, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348248102518780936, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2986300050540301639, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -22440,6 +21732,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -7101276297001579083, guid: bd3efa2cfa3624e508d37cdda1bd0f62,
         type: 3}
+    - target: {fileID: 1244866389585671478, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -7101276297001579083, guid: bd3efa2cfa3624e508d37cdda1bd0f62,
+        type: 3}
+    - target: {fileID: 8393616048413976529, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.32
+      objectReference: {fileID: 0}
     - target: {fileID: 8393616048413976529, guid: 60c8c7e30a99d45bf93943ba9510c0f6,
         type: 3}
       propertyPath: m_text
@@ -23651,154 +22954,6 @@ Rigidbody:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
-  m_GameObject: {fileID: 2064659632}
-  m_Enabled: 1
-  serializedVersion: 9
-  m_Type: 0
-  m_Color: {r: 0.3025448, g: 0.1981132, b: 1, a: 1}
-  m_Intensity: 50
-  m_Range: 0.5
-  m_SpotAngle: 100
-  m_InnerSpotAngle: 1
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 0
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
---- !u!1 &2066877491
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2066877492}
-  - component: {fileID: 2066877493}
-  m_Layer: 0
-  m_Name: Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2066877492
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2066877491}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.2, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 223974230}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!108 &2066877493
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2066877491}
-  m_Enabled: 1
-  serializedVersion: 9
-  m_Type: 2
-  m_Color: {r: 0.93333334, g: 0.28627446, b: 0.3811091, a: 1}
-  m_Intensity: 1
-  m_Range: 1
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
---- !u!1 &2097478782
-=======
   m_GameObject: {fileID: 2986300050565631324}
   serializedVersion: 2
   m_Mass: 0.1
@@ -23810,7 +22965,6 @@ Light:
   m_Constraints: 0
   m_CollisionDetection: 1
 --- !u!1 &8348248102475953171
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23831,607 +22985,3 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD:CS5650/Assets/Scenes/ShelfScene.unity
---- !u!4 &2097478783
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2097478782}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 100, y: 25, z: 0}
-  m_LocalScale: {x: 200, y: 50, z: 1}
-  m_Children: []
-  m_Father: {fileID: 821665980}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &2097478784
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2097478782}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &2097478785
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2097478782}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: acac3bed1139b464d89bc381529eeca7, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &2097478786
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2097478782}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &2119314033
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2119314034}
-  - component: {fileID: 2119314035}
-  m_Layer: 0
-  m_Name: Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2119314034
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2119314033}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.2, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 320558097}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!108 &2119314035
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2119314033}
-  m_Enabled: 1
-  serializedVersion: 9
-  m_Type: 2
-  m_Color: {r: 0.9229107, g: 0.9339623, b: 0.2863564, a: 1}
-  m_Intensity: 0.3
-  m_Range: 3
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
---- !u!1 &1030334040146957
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 224193467591245363}
-  - component: {fileID: 222017705924348491}
-  - component: {fileID: 114295069474424711}
-  m_Layer: 5
-  m_Name: ContentLeft
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1451146686424829
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 224850503324716139}
-  - component: {fileID: 222971885555031245}
-  - component: {fileID: 114155474911907833}
-  m_Layer: 5
-  m_Name: Content
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1563705871948999
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 224695748647699373}
-  - component: {fileID: 222126391648454671}
-  - component: {fileID: 114090468704021193}
-  m_Layer: 5
-  m_Name: ContentRight
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1620921125060723
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 224586677718267213}
-  - component: {fileID: 223237603686936987}
-  - component: {fileID: 114372396120840741}
-  - component: {fileID: 114076982284977615}
-  - component: {fileID: 114798579114523523}
-  - component: {fileID: 1620921125060724}
-  - component: {fileID: 1620921125060725}
-  m_Layer: 5
-  m_Name: MenuCanvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1620921125060724
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1620921125060723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f53df616cc6fd470c895f1a49fc19007, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonPrefab: {fileID: 224949956480874824, guid: aa84e2bd72d699a4db1fe9b0b0186c33,
-    type: 3}
-  labelPrefab: {fileID: 224113878955223432, guid: b70f270c689802248940829a132bb9cc,
-    type: 3}
-  sliderPrefab: {fileID: 224231512797991306, guid: fd44cad6bf2970e47939ef98a48a9190,
-    type: 3}
-  dividerPrefab: {fileID: 224381450234172052, guid: 61d9c2baaf4c42944ae89394cdca96a1,
-    type: 3}
-  togglePrefab: {fileID: 224432059304816160, guid: 8ff769690226dec4ea7ad1cea633b2c3,
-    type: 3}
-  radioPrefab: {fileID: 224432059304816160, guid: a508804a6c02d1c44885f209b9996929,
-    type: 3}
-  targetContentPanels:
-  - {fileID: 224850503324716139}
-  - {fileID: 224695748647699373}
-  - {fileID: 224193467591245363}
-  manuallyResizeContentPanels: 1
-  toEnable: []
-  toDisable: []
---- !u!114 &1620921125060725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1620921125060723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0328d574ed4824b60af83b96f1e4f2c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uiHelpersToInstantiate: {fileID: 1732808951507650, guid: a9d2de84afb308a4796cc671d3432b4d,
-    type: 3}
-  laserBeamBehavior: 2
---- !u!114 &114076982284977615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1620921125060723}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &114090468704021193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1563705871948999}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: fd7cf88ee9b05f94f84bd7686a9669a6, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!114 &114155474911907833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1451146686424829}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: fd7cf88ee9b05f94f84bd7686a9669a6, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!114 &114295069474424711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1030334040146957}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: fd7cf88ee9b05f94f84bd7686a9669a6, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!114 &114372396120840741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1620921125060723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
---- !u!114 &114798579114523523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1620921125060723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7aaf960227867044282d921171d2d7ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  pointer: {fileID: 0}
-  sortOrder: 0
---- !u!222 &222017705924348491
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1030334040146957}
-  m_CullTransparentMesh: 0
---- !u!222 &222126391648454671
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1563705871948999}
-  m_CullTransparentMesh: 0
---- !u!222 &222971885555031245
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1451146686424829}
-  m_CullTransparentMesh: 0
---- !u!223 &223237603686936987
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1620921125060723}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 2
-  m_Camera: {fileID: 1893335825}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &224193467591245363
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1030334040146957}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 224586677718267213}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -550, y: 0}
-  m_SizeDelta: {x: 16, y: 16}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!224 &224586677718267213
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1620921125060723}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 3}
-  m_LocalScale: {x: 0.0021, y: 0.0021, z: 0.0021}
-  m_Children:
-  - {fileID: 224850503324716139}
-  - {fileID: 224695748647699373}
-  - {fileID: 224193467591245363}
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0.888}
-  m_SizeDelta: {x: 1200, y: 600}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!224 &224695748647699373
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1563705871948999}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 224586677718267213}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 550, y: 0}
-  m_SizeDelta: {x: 16, y: 16}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!224 &224850503324716139
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1451146686424829}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 224586677718267213}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 575, y: 16}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &6920597195139466520
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6920597195139466521}
-  - component: {fileID: 6920597195139466522}
-  m_Layer: 0
-  m_Name: CanvasSupport
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6920597195139466521
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6920597195139466520}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.43, y: 0, z: 5.86}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6920597195139466522
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6920597195139466520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b20f1c8e79814c37ac1530bcc69b1fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-=======
->>>>>>> master:CS5650/Assets/Scenes/Campbell's Soup Cans.unity
