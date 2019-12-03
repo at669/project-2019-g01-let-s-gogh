@@ -29,6 +29,9 @@ public class DebugUIBuilder : MonoBehaviour
   public const int DEBUG_PANE_RIGHT = 1;
   public const int DEBUG_PANE_LEFT = 2;
 
+  public GameObject[] sculptures;
+  public GameObject[] paintings;
+
   [SerializeField]
   private RectTransform buttonPrefab;
   [SerializeField]
@@ -137,6 +140,78 @@ public class DebugUIBuilder : MonoBehaviour
     Relayout();
     gameObject.SetActive(true);
     transform.position = rig.transform.TransformPoint(menuOffset);
+    Vector3 newEulerRot = rig.transform.rotation.eulerAngles;
+    newEulerRot.x = 0.0f;
+    newEulerRot.z = 0.0f;
+    transform.eulerAngles = newEulerRot;
+
+    if (reEnable == null || reEnable.Length < toDisable.Count) reEnable = new bool[toDisable.Count];
+    reEnable.Initialize();
+    int len = toDisable.Count;
+    for (int i = 0; i < len; ++i)
+    {
+      if (toDisable[i])
+      {
+        reEnable[i] = toDisable[i].activeSelf;
+        toDisable[i].SetActive(false);
+      }
+    }
+    len = toEnable.Count;
+    for (int i = 0; i < len; ++i)
+    {
+      toEnable[i].SetActive(true);
+    }
+
+    int numPanels = targetContentPanels.Length;
+    for (int i = 0; i < numPanels; ++i)
+    {
+      targetContentPanels[i].gameObject.SetActive(insertedElements[i].Count > 0);
+    }
+  }
+
+  public void SculptShow(int ID)
+  {
+    Relayout();
+    gameObject.SetActive(true);
+    Vector3 newPosition = sculptures[ID].transform.position;
+    newPosition.y += 0.5f;
+    transform.position = newPosition;
+    Vector3 newEulerRot = rig.transform.rotation.eulerAngles;
+    newEulerRot.x = 0.0f;
+    newEulerRot.z = 0.0f;
+    transform.eulerAngles = newEulerRot;
+
+    if (reEnable == null || reEnable.Length < toDisable.Count) reEnable = new bool[toDisable.Count];
+    reEnable.Initialize();
+    int len = toDisable.Count;
+    for (int i = 0; i < len; ++i)
+    {
+      if (toDisable[i])
+      {
+        reEnable[i] = toDisable[i].activeSelf;
+        toDisable[i].SetActive(false);
+      }
+    }
+    len = toEnable.Count;
+    for (int i = 0; i < len; ++i)
+    {
+      toEnable[i].SetActive(true);
+    }
+
+    int numPanels = targetContentPanels.Length;
+    for (int i = 0; i < numPanels; ++i)
+    {
+      targetContentPanels[i].gameObject.SetActive(insertedElements[i].Count > 0);
+    }
+  }
+
+  public void PaintShow(int ID)
+  {
+    Relayout();
+    gameObject.SetActive(true);
+    Vector3 newPosition = paintings[ID].transform.position;
+    newPosition.z += 0.5f;
+    transform.position = newPosition;
     Vector3 newEulerRot = rig.transform.rotation.eulerAngles;
     newEulerRot.x = 0.0f;
     newEulerRot.z = 0.0f;
@@ -311,18 +386,18 @@ public class DebugUIBuilder : MonoBehaviour
     return rt;
   }
 
-  public void ToggleLaserPointer(bool isOn)
-  {
-    if (lp)
-    {
-      if (isOn)
-      {
-        lp.enabled = true;
-      }
-      else
-      {
-        lp.enabled = false;
-      }
-    }
-  }
+  // public void ToggleLaserPointer(bool isOn)
+  // {
+  //   if (lp)
+  //   {
+  //     if (isOn)
+  //     {
+  //       lp.enabled = true;
+  //     }
+  //     else
+  //     {
+  //       lp.enabled = false;
+  //     }
+  //   }
+  // }
 }
