@@ -20,8 +20,6 @@ public class SculptSlider : MonoBehaviour
     private bool inMenu = false;
     private Text sliderText;
     private Text rotText;
-    // LaserPointer lp;
-    // public LaserPointer.LaserBeamBehavior laserBeamBehavior;
     private LocomotionTeleport TeleportController
     {
         get
@@ -33,24 +31,19 @@ public class SculptSlider : MonoBehaviour
     public int sculptID;
     private float prevRot = 0;
 
-    // void Awake(){
-    //     lp = FindObjectOfType<LaserPointer>();
-    //     lp.laserBeamBehavior = laserBeamBehavior;
-    //     GetComponent<OVRRaycaster>().pointer = lp.gameObject;
-    //     lp.gameObject.SetActive(true);
-    // }
-
-	// protected override void Start() {
     void Start() {
         laser = LaserInitObj.getLaser();
         instance = NewUIBuilderObj.getInstance();
         lc = FindObjectOfType<LocomotionController>();
-        instance.AddLabel(Title);
+        if (Title.Length > 0) {
+            instance.AddLabel(Title);
+        }
         if (Artist.Length > 0) {
             instance.AddLabel(Artist);
         }
-        
-        instance.AddLabel(Year);
+        if (Year.Length > 0) {
+            instance.AddLabel(Year);
+        }
 
         var sliderPrefab = instance.AddSlider("Scale", 1f, 2.0f, SliderPressed, false);
         var sliderRot = instance.AddSlider("Rotation", 0f, 360f, SliderRotate, true);
@@ -80,12 +73,6 @@ public class SculptSlider : MonoBehaviour
     public void SliderRotate(float f)
     {
         rotText.text = f.ToString();
-        // if (sculptID == 0){
-        //     transform.Rotate(0, 0, prevRot - f, Space.Self);
-        // }
-        // else {
-        //     transform.Rotate(0, prevRot - f, 0, Space.Self);
-        // }
         transform.Rotate(0, prevRot - f, 0, Space.Self);
         prevRot = f;
     }
@@ -97,31 +84,6 @@ public class SculptSlider : MonoBehaviour
             if (inMenu) instance.Hide();
             else instance.SculptShow(sculptID);
             inMenu = !inMenu;
-        }
-
-//         Set the RayTransform in OVRInputModule to a handAnchor. 
-// Add OVRRaycaster component to your canvas.
-
-        if (OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger) > 0.1f){
-            RaycastHit rayHit; 
-            // Ray ray = new Ray(m_gripTransform.position, m_gripTransform.forward);
-            Ray ray = new Ray(GetComponent<OVRRaycaster>().pointer.transform.position, GetComponent<OVRRaycaster>().pointer.transform.forward);
-            // Ray ray = new Ray(laser.gameObject.transform.position, laser.gameObject.transform.forward);
-            if (Physics.Raycast(ray, out rayHit, Mathf.Infinity)) {
-                Interact(rayHit);
-            }
-        }
-    }
-
-    private void Interact(RaycastHit hit){
-        if (hit.collider.name.StartsWith("Sculpt")){
-            if (inMenu) instance.Hide();
-            else instance.SculptShow(sculptID);
-            inMenu = !inMenu;
-        }
-        else{
-            if (inMenu) instance.Hide();
-            inMenu = false;
         }
     }
 }
