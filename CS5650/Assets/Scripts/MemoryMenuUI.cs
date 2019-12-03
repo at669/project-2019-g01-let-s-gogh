@@ -5,7 +5,7 @@ using UnityEngine.Assertions;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class ShelfMenuUI : MonoBehaviour
+public class MemoryMenuUI : MonoBehaviour
 {
     bool inMenu;
     private Text sliderText;
@@ -13,8 +13,9 @@ public class ShelfMenuUI : MonoBehaviour
 	void Start ()
     {
         MenuUIBuilder.instance.AddLabel("Game Menu");
-        MenuUIBuilder.instance.AddButton("Reload Scene", GoToWarhol);
-        MenuUIBuilder.instance.AddButton("Return to Lobby", GoToLobby);        
+        MenuUIBuilder.instance.AddButton("Reload Scene", GoToDali);
+        // MenuUIBuilder.instance.AddButton("Enter Campbell's Soup Cans", GoToWarhol);    
+        MenuUIBuilder.instance.AddButton("Return to Lobby", GoToLobby);            
         MenuUIBuilder.instance.Show();
         inMenu = true;
 	}
