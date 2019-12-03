@@ -182,7 +182,7 @@ public class NewUIBuilder : MonoBehaviour
     Relayout();
     gameObject.SetActive(true);
     Vector3 newPosition = sculpture.transform.position;
-    newPosition = Vector3.MoveTowards(newPosition, rig.transform.position, 0.5f);
+    newPosition = Vector3.MoveTowards(newPosition, rig.transform.position, 1f);
     newPosition.y += 0.5f;
     transform.position = newPosition;
     // Vector3 newEulerRot = rig.transform.rotation.eulerAngles;
@@ -218,27 +218,31 @@ public class NewUIBuilder : MonoBehaviour
 
   public void PaintShow(int ID)
   {
+    // RelayoutMod(ID);
     Relayout();
     gameObject.SetActive(true);
     Vector3 newPosition = painting.transform.position;
-    newPosition.z += 0.5f;
+    newPosition = Vector3.MoveTowards(newPosition, rig.transform.position, 1f);
+    newPosition.y += 0.5f;
     transform.position = newPosition;
-    Vector3 newEulerRot = rig.transform.rotation.eulerAngles;
-    newEulerRot.x = 0.0f;
-    newEulerRot.z = 0.0f;
-    transform.eulerAngles = newEulerRot;
+    // Vector3 newEulerRot = rig.transform.rotation.eulerAngles;
+    // newEulerRot.x = 0.0f;
+    // newEulerRot.z = 0.0f;
+    // transform.eulerAngles = newEulerRot;
+    transform.LookAt(rig.transform);
+    transform.Rotate(0, 180, 0, Space.Self);
 
     if (reEnable == null || reEnable.Length < toDisable.Count) reEnable = new bool[toDisable.Count];
     reEnable.Initialize();
     int len = toDisable.Count;
-    for (int i = 0; i < len; ++i)
-    {
-      if (toDisable[i])
-      {
-        reEnable[i] = toDisable[i].activeSelf;
-        toDisable[i].SetActive(false);
-      }
-    }
+    // for (int i = 0; i < len; ++i)
+    // {
+    //   if (toDisable[i])
+    //   {
+    //     reEnable[i] = toDisable[i].activeSelf;
+    //     toDisable[i].SetActive(false);
+    //   }
+    // }
     len = toEnable.Count;
     for (int i = 0; i < len; ++i)
     {

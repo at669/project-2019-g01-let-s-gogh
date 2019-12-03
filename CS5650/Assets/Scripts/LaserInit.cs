@@ -56,4 +56,8 @@ public class LaserInit : MonoBehaviour
     {
         
     }
+
+    public LaserPointer getLaser(){
+        return lp;
+    }
 }

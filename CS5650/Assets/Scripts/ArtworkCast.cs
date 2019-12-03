@@ -10,76 +10,76 @@ using UnityEngine.SceneManagement;
 // Show off all the Debug UI components.
 public class ArtworkCast : MonoBehaviour
 {
-    // public DebugUIBuilder DebugUIBuilderObj;
-    // public string PaintingTitle;
-    // public string Artist;
-    // public string Year;
-    // private LocomotionController lc;
-    // private bool inMenu = false;
-    // public int artID;
-    // private LocomotionTeleport TeleportController
-    // {
-    //     get
-    //     {
-    //         return lc.GetComponent<LocomotionTeleport>(); 
-    //     }
-    // }
+    public LaserInit LaserInitObj;
+    private LaserPointer laser;
+    public NewUIBuilder NewUIBuilderObj;
+    private NewUIBuilder instance;
+    public string Title;
+    public string Artist;
+    public string Year;
+    private LocomotionController lc;
+    private bool inMenu = false;
+    public int artID;
+    private LocomotionTeleport TeleportController
+    {
+        get
+        {
+            return lc.GetComponent<LocomotionTeleport>(); 
+        }
+    }
 
-    // private DebugUIBuilder instance;
 
-	// // protected override void Start() {
-    // void Start() {
-    //     instance = DebugUIBuilderObj.GetComponent<DebugUIBuilder>().getInstance();
-    //     lc = FindObjectOfType<LocomotionController>();
+	// protected override void Start() {
+    void Start() {
+        laser = LaserInitObj.getLaser();
+        instance = NewUIBuilderObj.getInstance();
+        lc = FindObjectOfType<LocomotionController>();
 
-    //     instance.AddLabel(PaintingTitle, artID);
-    //     instance.AddLabel(Artist, artID);
-    //     instance.AddLabel(Year, artID);
-    //     instance.AddButton("Close", Close, artID);
-    //     instance.AddButton("Enter", Enter, artID);
+        instance.AddLabel(Title);
+        instance.AddLabel(Artist);
+        instance.AddLabel(Year);
+        instance.AddButton("Enter", Enter);
 
-    //     instance.Show();
+        instance.PaintShow(artID);
+        instance.Hide();
+        inMenu = false;
 
-    //     EventSystem eventSystem = FindObjectOfType<EventSystem>();
-	// }
+        EventSystem eventSystem = FindObjectOfType<EventSystem>();
+	}
 
-    // void Enter(){
-    //     SceneManager.LoadScene(PaintingTitle);
-    // }
+    void Enter(){
+        SceneManager.LoadScene(Title);
+    }
 
-    // void Close()
-    // {
-    //     if (inMenu) instance.Hide();
-    //     inMenu = false;
-    // }
+    void Update()
+    {
+        if(OVRInput.GetDown(OVRInput.Button.Two) || OVRInput.GetDown(OVRInput.Button.Start))
+        {
+            if (inMenu) instance.Hide();
+            else instance.PaintShow(artID);
+            inMenu = !inMenu;
+        }
 
-    // void Update()
-    // {
-    //     // if(OVRInput.GetDown(OVRInput.Button.Two) || OVRInput.GetDown(OVRInput.Button.Start))
-    //     // {
-    //     //     if (inMenu) DebugUIBuilder.instance.Hide();
-    //     //     else DebugUIBuilder.instance.Show();
-    //     //     inMenu = !inMenu;
-    //     // }
+        if (OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger) > 0.1f){
+            RaycastHit rayHit; 
+            // Ray ray = new Ray(m_gripTransform.position, m_gripTransform.forward);
+            Ray ray = new Ray(GetComponent<OVRRaycaster>().pointer.transform.position, GetComponent<OVRRaycaster>().pointer.transform.forward);
+            // Ray ray = new Ray(laser.gameObject.transform.position, laser.gameObject.transform.forward);
+            if (Physics.Raycast(ray, out rayHit, Mathf.Infinity)) {
+                Interact(rayHit);
+            }
+        }
+    }
 
-    //     // if (OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger) > 0.1f){
-    //     //     RaycastHit rayHit; 
-    //     //     Ray ray = new Ray(m_gripTransform.position, m_gripTransform.forward);
-    //     //     if (Physics.Raycast(ray, out rayHit, Mathf.Infinity)) {
-    //     //         Interact(rayHit);
-    //     //     }
-    //     // }
-    // }
-
-    // private void Interact(RaycastHit hit){
-    //     if (hit.collider.name.StartsWith("Paint")){
-    //         if (inMenu) instance.Hide();
-    //         else instance.Show();
-    //         inMenu = !inMenu;
-    //     }
-    //     else{
-    //         if (inMenu) instance.Hide();
-    //         inMenu = false;
-    //     }
-    // }
+    private void Interact(RaycastHit hit){
+        if (hit.collider.name.StartsWith("Paint")){
+            if (inMenu) instance.Hide();
+            else instance.PaintShow(artID);
+            inMenu = !inMenu;
+        }
+        else{
+            if (inMenu) instance.Hide();
+            inMenu = false;
+        }
+    }
 }

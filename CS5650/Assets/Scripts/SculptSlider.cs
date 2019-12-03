@@ -9,6 +9,8 @@ using UnityEngine.Events;
 // Show off all the Debug UI components.
 public class SculptSlider : MonoBehaviour
 {
+    public LaserInit LaserInitObj;
+    private LaserPointer laser;
     public NewUIBuilder NewUIBuilderObj;
     private NewUIBuilder instance;
     public string Title;
@@ -40,6 +42,7 @@ public class SculptSlider : MonoBehaviour
 
 	// protected override void Start() {
     void Start() {
+        laser = LaserInitObj.getLaser();
         instance = NewUIBuilderObj.getInstance();
         lc = FindObjectOfType<LocomotionController>();
         instance.AddLabel(Title);
@@ -96,10 +99,14 @@ public class SculptSlider : MonoBehaviour
             inMenu = !inMenu;
         }
 
+//         Set the RayTransform in OVRInputModule to a handAnchor. 
+// Add OVRRaycaster component to your canvas.
+
         if (OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger) > 0.1f){
             RaycastHit rayHit; 
             // Ray ray = new Ray(m_gripTransform.position, m_gripTransform.forward);
             Ray ray = new Ray(GetComponent<OVRRaycaster>().pointer.transform.position, GetComponent<OVRRaycaster>().pointer.transform.forward);
+            // Ray ray = new Ray(laser.gameObject.transform.position, laser.gameObject.transform.forward);
             if (Physics.Raycast(ray, out rayHit, Mathf.Infinity)) {
                 Interact(rayHit);
             }
